@@ -1,2 +1,8 @@
-package com.project.myapp.requests;public class CommentUpdateRequest {
+package com.project.myapp.requests;
+
+import lombok.Data;
+
+@Data
+public class CommentUpdateRequest {
+    String text;
 }

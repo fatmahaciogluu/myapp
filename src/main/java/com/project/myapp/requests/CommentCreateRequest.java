@@ -1,2 +1,11 @@
-package com.project.myapp.requests;public class CommentCreateRequest {
+package com.project.myapp.requests;
+
+import lombok.Data;
+
+@Data
+public class CommentCreateRequest {
+    Long id;
+    Long userId;
+    Long postId;
+    String text;
 }
